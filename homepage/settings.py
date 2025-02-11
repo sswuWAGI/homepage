@@ -37,10 +37,11 @@ SECRET_KEY = get_secret("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+SECURE_SSL_REDIRECT = False
+CORS_ORIGIN_ALLOW_ALL = True
 ALLOWED_HOSTS = [
-    #".ap-northeast-2.compute.amazonaws.com",
-    #".sswu-wagi.com",
+    "ec2-13-61-237-107.eu-north-1.compute.amazonaws.com",
+    "13.61.237.107",
     ]
 
 def is_ec2_linux():
