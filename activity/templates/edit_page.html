@@ -1,0 +1,87 @@
+{% extends "basic.html" %}
+{% load static %}
+
+
+    
+{% block content %}
+    <link rel="stylesheet" href="{% static 'css/activities.css' %}">
+    <div id="activities_manager" hidden></div><!--js 처리용 div-->
+    <div id="edit_page" hidden></div><!--js 처리용 div-->
+    <div id="page-wrapper">
+
+        <div id="main-section">
+            
+        </div>
+
+    </div>
+    <div id="content"><!--헤더 밑-->
+        <form method="post">
+            {% csrf_token %}
+            <div id="button_area"><!--버튼 공간-->
+                <button type="submit" class="button" id="delete_button">
+                    선택한 파일 삭제하기
+                </button>
+            </div>
+            <button type="button" class="button" id="delete_button2">
+                <a href ="/success/">완료</a>
+            </button>
+            <div id="item_area"><!--이동 버튼 밑-->
+                <div id="article"><!--모든 앨범-->
+                    <!--MT-->
+                    <div class="item" id="mt"><!--앨범 및 앨범 이름-->
+                        <div class="album">
+                            <div class="img_box_small size_small" id="mt_img_box">
+                                {% for image in mt_images %}
+                                    {% if image.mt_image %} 
+                                        <div class="image-wrapper">
+                                            <img src="{{ image.mt_image.url }}" alt="MT Image">
+                                            <input type="checkbox" name="delete_mt_images" class="img-checkbox" value="{{ image.id }}">       
+                                        </div>
+                                    {% endif %}
+                                {% endfor %}
+                                <p hidden>사진이 없습니다.</p>
+                            </div>
+                        </div>
+                        <div class="album_name">MT</div> <!--앨범 이름-->
+                    </div>
+                    <!--이하 동일-->
+                    <!--study-->
+                    <div class="item" id="study">
+                        <div class="album">
+                            <div class="img_box_small size_small" id="study_img_box">
+                                {% for image in study_images %}
+                                    {% if image.study_image %}
+                                        <div class="image-wrapper">
+                                            <img src="{{ image.study_image.url }}" alt="Study Image">
+                                                <input type="checkbox" name="delete_study_images" class="img-checkbox" value="{{ image.id }}">
+                                        </div>
+                                    {% endif %}
+                                {% endfor %}
+                                <p hidden>사진이 없습니다.</p>
+                            </div>
+                        </div>
+                        <div class="album_name">Study</div>
+                    </div>
+                    <!--project-->
+                    <div class="item" id="project">
+                        <div class="album">
+                            <div class="img_box_small size_small" id="project_img_box">
+                                {% for image in project_images %}
+                                    {% if image.project_image %}    
+                                        <div class="image-wrapper">
+                                            <img src="{{ image.project_image.url }}" alt="Project Image">
+                                                <input type="checkbox" name="delete_project_images" class="img-checkbox" value="{{ image.id }}">
+                                        </div>
+                                    {% endif %}
+                                {% endfor %}
+                                <p hidden>사진이 없습니다.</p>
+                            </div>
+                        </div>
+                        <div class="album_name">Project</div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script defer src="{% static 'js/activities.js' %}"></script>
+{% endblock %}
