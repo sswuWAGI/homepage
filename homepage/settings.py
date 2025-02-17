@@ -36,12 +36,13 @@ def get_secret(setting):
 SECRET_KEY = get_secret("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-SECURE_SSL_REDIRECT = False
-CORS_ORIGIN_ALLOW_ALL = True
+SECURE_SSL_REDIRECT = False  # HTTPS 강제 리디렉션 비활성화
+CSRF_COOKIE_SECURE = False
+SESSION_COOKIE_SECURE = False
 ALLOWED_HOSTS = [
-    "ec2-13-61-237-107.eu-north-1.compute.amazonaws.com",
-    "13.61.237.107",
+    ".eu-north-1.compute.amazonaws.com",
+    ".13.61.237.107",
+    ".wagi.site",
     ]
 
 def is_ec2_linux():
