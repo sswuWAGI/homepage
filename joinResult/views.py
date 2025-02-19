@@ -10,7 +10,7 @@ from datetime import datetime
 
 def join_button(request):
     current_datetime = datetime.now()  # 현재 날짜와 시간
-    start_j_datetime = datetime(2025, 2, 20)  # 지원서 제출 시작 날짜와 시간
+    start_j_datetime = datetime(2025, 2, 19)  # 지원서 제출 시작 날짜와 시간
     end_j_datetime = datetime(2025, 2, 21)  # 지원서 제출 끝나는 날짜와 시간
     start_r_datetime = datetime(2025, 2, 22, 15)  # 합격자 조회 시작 날짜와 시간
     end_r_datetime = datetime(2025, 2, 23)  # 합격자 조회 끝나는 날짜와 시간
