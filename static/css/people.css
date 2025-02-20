@@ -29,7 +29,7 @@
         display: inline;
         font-size: 20px;
     }
-    .seoson > a {
+    /* .seoson > a {
         text-decoration: underline; 
         font-size: 17px;  
         font-weight: 500;
@@ -43,13 +43,26 @@
         float: left;
         /* float: inline-start; */
         /* margin-left: 45px;
-        margin-right: 20px;    */
+        margin-right: 20px;    
     }
     .seoson3{
         display: inline;
         float: inline-start;
         margin-left: 45px;
         margin-right: 20px;   
+    } */
+    
+    .seoson {
+        display: flex;  
+        justify-content: center; /* 가운데 정렬 */
+        align-items: center; /* 수직 정렬 */
+        gap: 20px; /* 항목 간 간격 */
+    }
+    
+    .seoson a {
+        text-decoration: underline;
+        font-size: 17px;
+        font-weight: 500;
     }
     
     .L_bubble{
