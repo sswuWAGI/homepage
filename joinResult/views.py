@@ -12,7 +12,7 @@ def join_button(request):
     current_datetime = datetime.now()  # 현재 날짜와 시간
     start_j_datetime = datetime(2025, 2, 19)  # 지원서 제출 시작 날짜와 시간
     end_j_datetime = datetime(2025, 2, 20)  # 지원서 제출 끝나는 날짜와 시간(이 날짜로 바뀌는 순간 끝남. 즉, 20일 11:59까지 받고 싶으면 21로 입력해야함.)
-    start_r_datetime = datetime(2025, 2, 20, 21)  # 합격자 조회 시작 날짜와 시간
+    start_r_datetime = datetime(2025, 2, 20, 22)  # 합격자 조회 시작 날짜와 시간
     end_r_datetime = datetime(2025, 2, 22)  # 합격자 조회 끝나는 날짜와 시간
     isDate = 0
     
