@@ -40,9 +40,10 @@
     }
     .seoson2{
         display: inline;
-        float: inline-start;
-        margin-left: 45px;
-        margin-right: 20px;   
+        float: left;
+        /* float: inline-start; */
+        /* margin-left: 45px;
+        margin-right: 20px;    */
     }
     .seoson3{
         display: inline;
