@@ -40,9 +40,9 @@
     }
     .seoson2{
         display: inline;
-        float: left;
-        /* float: inline-start; */
-        /* margin-left: 45px;
+        float: left; 
+        /* float: inline-start;
+        margin-left: 45px;
         margin-right: 20px;    */
     }
     .seoson3{
@@ -248,15 +248,15 @@
     }
     .seoson2{
         display: inline;
-        float: left;
+        float: left; 
         /* float: inline-start; */
-        /* margin-left: 45px;
-        margin-right: 20px;    */
+        /* margin-left: 45px; */
+        margin-right: 20px;   
     }
     .seoson3{
         display: inline;
         float: inline-start;
-        margin-left: 45px;
+        margin-left: 90px;
         margin-right: 20px;   
     }
     
