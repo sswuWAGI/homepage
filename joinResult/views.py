@@ -10,13 +10,13 @@ from datetime import datetime
 
 def join_button(request):
     current_datetime = datetime.now()  # 현재 날짜와 시간
-    start_j_datetime = datetime(2025, 2, 19)  # 지원서 제출 시작 날짜와 시간
-    end_j_datetime = datetime(2025, 2, 21)  # 지원서 제출 끝나는 날짜와 시간
+    start_j_datetime = datetime(2025, 2, 18)  # 지원서 제출 시작 날짜와 시간
+    end_j_datetime = datetime(2025, 2, 19)  # 지원서 제출 끝나는 날짜와 시간
     start_r_datetime = datetime(2025, 2, 22, 15)  # 합격자 조회 시작 날짜와 시간
     end_r_datetime = datetime(2025, 2, 23)  # 합격자 조회 끝나는 날짜와 시간
     isDate = 0
     
-    print(current_datetime)
+    # print(current_datetime)
 
     if start_j_datetime <= current_datetime <= end_j_datetime:  # 지원서 제출 기간
         isDate = 1
@@ -96,7 +96,7 @@ def result(request):
             data = {'result': 'fail', 'number': inputId, 'name': join_info_object.user_name, }
             return JsonResponse(data)
         else:
-           return redirect('joinResult:inquiry')   
+            return redirect('joinResult:inquiry')   
     return render(request, 'inquiry.html')
 
 # 지원서 작성 페이지로 이동
