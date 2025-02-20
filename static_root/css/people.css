@@ -240,7 +240,7 @@
     .seoson > a {
         text-decoration: underline; 
         font-size: 20px;  
-        font-weight: 800;
+        font-weight: 600;
     }
     .seoson1{
         display: inline;
@@ -249,9 +249,9 @@
     .seoson2{
         display: inline;
         float: left; 
-        /* float: inline-start;
+        /* float: inline-start; */
         margin-left: 45px;
-        margin-right: 20px;    */
+        margin-right: 20px;   
     }
     .seoson3{
         display: inline;
