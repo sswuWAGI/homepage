@@ -11,4 +11,7 @@ def show_people_2(request):
     people_data = People.objects.values('user_name', 'user_image', 'user_bio', 'user_portfolio1','user_portfolio2', 'generation_number')
     return render(request, 'people_2.html', {'people_data':people_data})
 
+def show_people_3(request):
+    people_data = People.objects.values('user_name', 'user_image', 'user_bio', 'user_portfolio1','user_portfolio2', 'generation_number')
+    return render(request, 'people_3.html', {'people_data':people_data})
 
