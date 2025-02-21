@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //pc 일때 js
     else  {
         const container = document.querySelector('.center');
-        let visibleBubbles = 1;
+        let visibleBubbles = 2;
 
         function createBubble(person, isLeft) {
         const bubble = document.createElement('div');
