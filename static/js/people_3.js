@@ -13,13 +13,55 @@ document.addEventListener('DOMContentLoaded', function() {
         link_1: "https://github.com/esperanza-Q",
         link_2: "https://suruna1026.tistory.com/",
       },
-      // {
-      //   name: "전민선",
-      //   photo: "../static/img/people/전민선.png",
-      //   bio: "즐거운 코딩 ~.~",
-      //   link_1: "https://github.com/mminnn28",
-      //   link_2: "https://mminnn28.tistory.com/",
-      // },
+      {
+        name: "유예은",
+        photo: "../static/img/people/유예은.png",
+        bio: "WAGI의 와기 ( ╹◡╹ )",
+        link_1: "https://github.com/Yeeun102",
+        link_2: "https://yecococoding.tistory.com/",
+      },
+      {
+        name: "김다인",
+        photo: "../static/img/people/김다인.png",
+        bio: "컴공여신 잇츠미",
+        link_1: "https://github.com/daaaaaaain",
+      },
+      {
+        name: "백수진",
+        photo: "../static/img/people/백수진.png",
+        bio: "나=와기, 와기=나",
+        link_1: "https://github.com/slwnt31",
+      },
+      {
+        name: "노혜린",
+        photo: "../static/img/people/노혜린.png",
+        bio: "와기는 코딩을 찢어",
+        link_1: "https://github.com/lynn0325",
+      },
+      {
+        name: "고은희",
+        photo: "../static/img/people/고은희.png",
+        bio: "와기야 왜 자꾸 칭얼거려",
+        link_1: "https://github.com/qumaux24",
+      },
+      {
+        name: "권수정",
+        photo: "../static/img/people/권수정.png",
+        bio: "와기레츠고옹",
+        link_1: "https://github.com/sujeongkwon",
+      },
+      {
+        name: "이정원",
+        photo: "../static/img/people/이정원.png",
+        bio: "제가 와기 당첨이라니⋰˚♡",
+        link_1: "https://github.com/bella292",
+      },
+      {
+        name: "조하늘",
+        photo: "../static/img/people/조하늘.png",
+        bio: "와기가되 ◟( ˘ ³˘)◞ ♡",
+        link_1: "https://github.com/gkdl0113",
+      },
       
       
     ];
@@ -27,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //모바일일때 js
     if (window.matchMedia('(max-width: 450px)').matches){
       const container = document.querySelector('.center');
-      let visibleBubbles = 1;
+      let visibleBubbles = 2;
 
       function createBubble(person, isLeft) {
       const bubble = document.createElement('div');
@@ -90,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
           const person = peopleData[visibleBubbles];
           createBubble(person, visibleBubbles % 2 === 0);
           visibleBubbles++;
-         Y = Y + 100;
+        Y = Y + 100;
         }
       });
 
