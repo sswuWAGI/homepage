@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //모바일일때 js
     if (window.matchMedia('(max-width: 450px)').matches){
       const container = document.querySelector('.center');
-      let visibleBubbles = 5;
+      let visibleBubbles = 2;
 
       function createBubble(person, isLeft) {
       const bubble = document.createElement('div');
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //pc 일때 js
     else  {
         const container = document.querySelector('.center');
-        let visibleBubbles = 5;
+        let visibleBubbles = 2;
 
         function createBubble(person, isLeft) {
         const bubble = document.createElement('div');
