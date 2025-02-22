@@ -139,6 +139,12 @@ document.addEventListener('DOMContentLoaded', function() {
       bio: "와기가되 ◟( ˘ ³˘)◞ ♡",
       link_1: "https://github.com/gkdl0113",
     },
+    {
+      name: "이가윤",
+      photo: "../static/img/people/이가윤.png",
+      bio: "열공하자 와기대학생",
+      link_1: "https://github.com/riveryunny",
+    },
     
       
     ];
