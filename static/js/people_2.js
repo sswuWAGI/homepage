@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function() {
       link_1: "https://github.com/riveryunny",
     },
     {
-      name: "이서영영",
+      name: "이서영",
       photo: "../static/img/people/이서영.png",
       bio: "뽀작와기즈💕",
       link_1: "https://github.com/sterlie8",
