@@ -334,8 +334,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         width: 295px;
-        /* height: 260px; */
-        height: 268px;
+        height: 260px;
 
     }
     .modal-content2 .message:nth-child(1) {
@@ -356,8 +355,7 @@
         background-color: rgb(255, 255, 255, 0.58);
         border-radius: 20px;
         width: 245px;
-        /* height: 132px; */
-        height: 140px;
+        height: 132px;
         font-size: 14px;
     }
     .OT_message h4 {
