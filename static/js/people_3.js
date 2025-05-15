@@ -68,7 +68,108 @@ document.addEventListener('DOMContentLoaded', function() {
         bio: "열공하자 와기대학생",
         link_1: "https://github.com/riveryunny",
       },
-      
+      {
+        name: "이예림",
+        photo: "../static/img/people/이예림.png",
+        bio: "냉철한 이성주의적 성향과 왕성한 호기심을 가진 만능 재주꾼",
+        link_1: "https://github.com/dPflaYL",
+      },
+      {
+        name: "김비주",
+        photo: "../static/img/people/김비주.png",
+        bio: "안녕하세요! 집순이입니다!",
+        link_1: "https://github.com/Bi-Joo",
+      },
+      {
+        name: "이서연",
+        photo: "../static/img/people/이서연.png",
+        bio: "내가 바로 그 와기입니다",
+        link_1: "https://github.com/dltjdusy/leeseoyeon",
+      },
+      {
+        name: "남유리",
+        photo: "../static/img/people/남유리.png",
+        bio: "와:와기가 되어  기:기쁘네요",
+        link_1: "https://github.com/Namyuri06",
+      },
+      {
+        name: "김나은",
+        photo: "../static/img/people/김나은.png",
+        bio: "와기 잘 부탁합니다!",
+        link_1: "https://github.com/aelisryeo",
+      },
+      {
+        name: "안다현",
+        photo: "../static/img/people/안다현.png",
+        bio: "고고!! 와기wagi",
+        link_1: "https://github.com/andada-creator",
+      },
+      {
+        name: "윤세진",
+        photo: "../static/img/people/윤세진.jpg",
+        bio: "와기자기한 대학생활🫶",
+        link_1: "github.com/yellowsejin",
+      },
+      {
+        name: "최은솔",
+        photo: "../static/img/people/최은솔.png",
+        bio: "0과 1사이에서 길을 찾는 중입니다",
+        link_1: "https://github.com/eunsolee/git_practice",
+      },
+      {
+        name: "김민경",
+        photo: "../static/img/people/김민경.jpg",
+        bio: "코드헌터",
+        link_1: "https://github.com/myganglody",
+      },
+      {
+        name: "이시연",
+        photo: "../static/img/people/이시연.png",
+        bio: "열공!! ദ്ദി´･_･`)",
+        link_1: "https://github.com/seee-yonn",
+      },
+      {
+        name: "최연정",
+        photo: "../static/img/people/최연정.png",
+        bio: "내가 와기!! 아자자 ٩(˵˃̶ω˂̶˵)◞",
+        link_1: "https://github.com/choi390",
+      },
+      {
+        name: "조주현",
+        photo: "../static/img/people/조주현.jpg",
+        bio: "와기!! 3기!! 화이팅 하시기!!",
+        link_1: "https://github.com/gus317",
+      },
+      {
+        name: "장민교",
+        photo: "../static/img/people/장민교.png",
+        bio: "좋은 와기 위대한 와기",
+        link_1: "https://github.com/mingyo603/git_practice",
+      },
+      {
+        name: "이원지",
+        photo: "../static/img/people/이원지.png",
+        bio: "아자아자 화이팅",
+        link_1: "https://github.com/wonji127?tab=repositories",
+      },
+      {
+        name: "이지현",
+        photo: "../static/img/people/이지현.png",
+        bio: "너 내 와기 동료가 돼라",
+        link_1: "https://github.com/Jihyun-0923",
+      },
+      {
+        name: "송정민",
+        photo: "../static/img/people/송정민.png",
+        bio: "Wagi 짱!",
+        link_1: "https://github.com/minibpr",
+      },
+      {
+        name: "이윤서",
+        photo: "../static/img/people/이윤서.png",
+        bio: "오늘도 와기롭게 살기ᐠ( ᐢ ᵕ ᐢ )ᐟ",
+        link_1: "https://github.com/ofjrv",
+      },
       
     ];
 
